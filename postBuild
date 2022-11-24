@@ -1,0 +1,3 @@
+conda create -n geolab geopandas ipykernel
+conda activate geolab 
+python -m ipykernel install --user --name=geolab
